@@ -1,0 +1,5 @@
+.menu-item_type_express:hover .menu-item__img {
+  display: block;
+  background-image: url(../../../images/media/express.png);
+  opacity: .4;
+}

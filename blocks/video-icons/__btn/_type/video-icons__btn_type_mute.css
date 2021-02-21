@@ -1,0 +1,7 @@
+.video-icons__btn_type_mute {
+  background-image: url(../../../../images/icons/speaker.svg);
+}
+
+.video-icons__btn_type_mute:hover {
+  background-image: url(../../../../images/icons/speaker_a.svg);
+}

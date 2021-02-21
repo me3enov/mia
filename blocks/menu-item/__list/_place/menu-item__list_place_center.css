@@ -1,0 +1,7 @@
+@media screen and (max-width: 1024px) {
+  .menu-item__list_place_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

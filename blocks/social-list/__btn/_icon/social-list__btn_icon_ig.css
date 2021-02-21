@@ -1,0 +1,7 @@
+.social-list__btn_icon_ig {
+  background-image: url(../../../../images/social-icons/instagram.svg);
+}
+
+.social-list__btn_icon_ig:hover {
+  background-image: url(../../../../images/social-icons/instagram_a.svg);
+}

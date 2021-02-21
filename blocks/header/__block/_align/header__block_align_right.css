@@ -1,0 +1,4 @@
+.header__block_align_right {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}

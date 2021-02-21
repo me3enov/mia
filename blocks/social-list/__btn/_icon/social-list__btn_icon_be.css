@@ -1,0 +1,7 @@
+.social-list__btn_icon_be {
+  background-image: url(../../../../images/social-icons/behance.svg);
+}
+
+.social-list__btn_icon_be:hover {
+  background-image: url(../../../../images/social-icons/behance_a.svg);
+}

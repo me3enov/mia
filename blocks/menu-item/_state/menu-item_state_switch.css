@@ -1,0 +1,11 @@
+.menu-item_state_switch {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-item_state_switch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

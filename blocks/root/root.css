@@ -1,0 +1,18 @@
+.root {
+  font-family: 'Rajdhani', ‘Arial’, sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+}

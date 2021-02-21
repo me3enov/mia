@@ -1,0 +1,5 @@
+.menu-item_type_marketing:hover .menu-item__img {
+  display: block;
+  background-image: url(../../../images/media/marketing.png);
+  opacity: .2;
+}

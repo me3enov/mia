@@ -1,0 +1,15 @@
+.menu-item__icon {
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../images/icons/arrow.svg);
+  margin: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-item__icon {
+    display: none;
+  }
+}

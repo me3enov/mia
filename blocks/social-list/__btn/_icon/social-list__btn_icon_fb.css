@@ -1,0 +1,7 @@
+.social-list__btn_icon_fb {
+  background-image: url(../../../../images/social-icons/facebook.svg);
+}
+
+.social-list__btn_icon_fb:hover {
+  background-image: url(../../../../images/social-icons/facebook_a.svg);
+}

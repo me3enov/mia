@@ -1,0 +1,12 @@
+.menu-item__icon_place_center {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-item__icon_place_center {
+    display: block;
+    width: 10px;
+    height: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.menu-item_place_center {
+  border: none;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin: 0;
+  padding: 0;
+}
