@@ -1,3 +1,9 @@
 .menu-item__title_place_center {
   align-self: center;
 }
+
+@media screen and (max-height: 390px) {
+  .menu-item__title_place_center {
+    display: none;
+  }
+}

@@ -18,6 +18,20 @@
   }
 }
 
+@media screen and (max-height: 440px) {
+  .menu-item__text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-height: 360px) {
+  .menu-item__text {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
 .menu-item__text:hover {
   font-weight: 600;
   color: #cfcfcf;

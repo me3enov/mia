@@ -25,7 +25,10 @@
 
 @media screen and (max-width: 425px) {
   .video-icons {
-    -ms-grid-columns: auto;
-    grid-template-columns: auto;
+    -ms-grid-columns: 50px 20px 50px;
+    grid-template-columns: repeat(2, 50px);
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
   }
 }

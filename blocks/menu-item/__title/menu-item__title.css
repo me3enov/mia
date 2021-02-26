@@ -24,3 +24,19 @@
     line-height: 32px;
   }
 }
+
+@media screen and (max-height: 440px) {
+  .menu-item__title {
+    font-size: 21px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-height: 390px) {
+  .menu-item__title {
+    text-align: left;
+    align-self: flex-start;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}

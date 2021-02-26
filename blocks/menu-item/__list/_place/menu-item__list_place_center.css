@@ -5,3 +5,11 @@
     display: flex;
   }
 }
+
+@media screen and (max-height: 590px) {
+  .menu-item__list_place_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

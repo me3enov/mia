@@ -8,8 +8,6 @@
   display: grid;
   -ms-grid-columns: 100vw;
   grid-template-columns: 100vw;
-  -ms-grid-rows: 100%;
-  grid-template-rows: 100%;
 }.main-content > *:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;

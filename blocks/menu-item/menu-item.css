@@ -37,6 +37,12 @@
   }
 }
 
+@media screen and (max-height: 390px) {
+  .menu-item {
+    margin: 0 40px;
+  }
+}
+
 .menu-item:last-of-type {
   border-right: none;
 }

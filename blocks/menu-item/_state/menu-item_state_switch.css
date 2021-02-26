@@ -9,3 +9,9 @@
     display: flex;
   }
 }
+
+@media screen and (max-height: 390px) {
+  .menu-item_state_switch {
+    display: block;
+  }
+}

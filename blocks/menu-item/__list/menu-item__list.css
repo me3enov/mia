@@ -16,3 +16,9 @@
     display: none;
   }
 }
+
+@media screen and (max-height: 590px) {
+  .menu-item__list {
+    display: none;
+  }
+}

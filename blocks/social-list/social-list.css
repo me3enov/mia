@@ -15,3 +15,9 @@
     display: none;
   }
 }
+
+@media screen and (max-height: 310px) {
+  .social-list {
+    display: none;
+  }
+}

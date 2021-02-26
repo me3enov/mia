@@ -28,3 +28,9 @@
     display: none;
   }
 }
+
+@media screen and (max-height: 310px) {
+  .main-content__company {
+    display: none;
+  }
+}
