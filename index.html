@@ -35,19 +35,26 @@
   <div class="root">
     <!--header start-->
     <header class="header">
+      <!--left menu button start-->
       <div class="header__block header__block_align_left">
         <button type="button" class="header__btn header__btn_align_left">
           <span class="header__btn-text">work with&nbsp;us</span>
           <div class="header__btn-line header__btn-line_align_left"></div>
         </button>
       </div>
+      <!--left menu button end-->
+
+      <!--logo menu start-->
       <div class="header__logo header__logo_place_main"></div>
+
+      <!--right menu button start-->
       <div class="header__block header__block_align_right">
         <button type="button" class="header__btn header__btn_align_right">
           <span class="header__btn-text">more</span>
           <div class="header__btn-line header__btn-line_align_right"></div>
         </button>
       </div>
+      <!--right menu button start-->
     </header>
     <!--header end-->
 
@@ -56,40 +63,158 @@
 
       <!--main-content section start-->
       <section class="main-content" aria-label="Main Content">
+        <!--overlay layer-->
         <div class="main-content__overlay"></div>
-        <div class="main-content__block">
+
+        <!--main title & video nav layer start-->
+        <div class="main-content__block main-content__block_type_index main-content__block_opened">
+          <!--title main layer start-->
           <h1 class="main-content__title">
             We&nbsp;create<br>
             design, web, animation,<br>
-            SMM and localize it&nbsp;all</h1>
+            SMM and localize it&nbsp;all
+          </h1>
+          <!--title main layer end-->
+
+          <!--video nav icons start-->
           <ul class="video-icons">
+            <!--video nav button play-->
             <li class="video-icons__video-icon">
               <button type="button" class="video-icons__btn video-icons__btn_type_play video-icons__btn_state_play"></button>
             </li>
+            <!--video nav button mute-->
             <li class="video-icons__video-icon">
               <button type="button" class="video-icons__btn video-icons__btn_type_mute video-icons__btn_state_mute"></button>
             </li>
           </ul>
+          <!--video nav icons end-->
         </div>
+        <!--main title & video nav layer end-->
+
+        <!--main title & video nav layer start-->
+        <div class="main-content__block main-content__block_type_work">
+          <!--form services start-->
+          <form id="form_place_work" class="form form_place_work" name="form__work" novalidate>
+            <!--title form start-->
+            <h2 class="main-content__title">
+              JUST<br>
+              CHOOSE A SERVICE
+            </h2>
+            <!--title form end-->
+
+            <!--select services start-->
+            <select
+            id="form__item_string_service"
+            class="form__item form__item_string_service"
+            name="service"
+            required>
+            <!--placeholder select-->
+            <option selected disabled>Select the interested service</option>
+
+            <!--title "express"-->
+            <optgroup label = "Express services"></optgroup>
+            <!--groupe "express" start-->
+            <option>Creation of creatives</option>
+            <option>Localization of products</option>
+            <option>Social media targeting</option>
+            <option>Keywords on Google Play</option>
+            <option>Keywords on Google</option>
+            <!--groupe "express" end-->
+
+            <!--title "marketing"-->
+            <optgroup label = "Marketing"></optgroup>
+            <!--groupe "marketing" start-->
+            <option>Community management</option>
+            <option>Targeted advertising</option>
+            <option>Influencer marketing</option>
+            <option>Photoproduction</option>
+            <!--groupe "marketing" end-->
+
+            <!--title "mobile"-->
+            <optgroup label = "Mobile"></optgroup>
+            <!--groupe "mobile" start-->
+            <option>Interface design</option>
+            <option>Technical implementation</option>
+            <option>Product launch</option>
+            <option>Product promotion</option>
+            <!--groupe "mobile" end-->
+
+            <!--title "digital"-->
+            <optgroup label = "Digital"></optgroup>
+            <!--groupe "digital" start-->
+            <option>Research and analytics</option>
+            <option>Interface design</option>
+            <option>Front-end and back-end</option>
+            <option>Technical and design support</option>
+            <!--groupe "digital" end-->
+
+            <!--title "digital"-->
+            <optgroup label = "Design & Motion"></optgroup>
+            <!--groupe "digital" start-->
+            <option>Websites and Landings</option>
+            <option>Motion design</option>
+            <option>Video and photo production</option>
+            <option>Scripting and directing</option>
+            <!--groupe "digital" end-->
+
+          </select>
+          <!--span select-->
+          <span id="form__input_string_service-error" class="form__input-error"></span>
+          <!--select services end-->
+
+          <!--input email start-->
+          <input
+            id="form__item_string_email"
+            class="form__item form__item_string_email"
+            name="email"
+            type="email"
+            placeholder="Your email or phone"
+            minlength="5" maxlength="200"
+            required
+            pattern="^(/\+?([\d|\(][\h|\(\d{3}\)|\.|\-|\d]{4,}\d)/)|([A-Za-z0-9._%\+\-]+@[a-z0-9.\-]+\.[a-z]{2,3})$">
+          <!--span email-->
+          <span id="form__input_string_email-error" class="form__input-error"></span>
+          <!--input email end-->
+          <button type="submit" class="form__item form__button form__button_place_work">Submit</button>
+          <!--fieldset form end-->
+          </form>
+          <!--form services end-->
+        </div>
+        <!--main title & video nav layer end-->
+
+        <!--social links start-->
         <ul class="social-list main-content__social-list">
+          <!--social nav button behance-->
           <li class="social-list__item">
             <button type="button" class="social-list__btn social-list__btn_icon_be"></button>
           </li>
+          <!--social nav button instagram-->
           <li class="social-list__item">
             <button type="button" class="social-list__btn social-list__btn_icon_ig"></button>
           </li>
+          <!--social nav button facebook-->
           <li class="social-list__item">
             <button type="button" class="social-list__btn social-list__btn_icon_fb"></button>
           </li>
         </ul>
+        <!--social links end-->
+
+        <!--company name-->
         <h2 class="main-content__company">main Idea agency</h2>
+
+        <!--copyright-->
         <p class="main-content__copyright">Main idea 2021</p>
-        <div class="main-content__back"></div>
-        <video class="main-content__showreel main-content__showreel_play main-content__showreel_muted" autoplay muted loop id="showreel">
-          <source src="video/showreel.mp4" type="video/mp4">
+
+        <!--background main page-->
+        <div class="main-content__back main-content__back_active"></div>
+
+        <!--video main page start-->
+        <video class="main-content__showreel main-content__showreel_play main-content__showreel_muted main-content__showreel_active" autoplay muted loop id="showreel">
+          <source src="video/showreel2.mp4" type="video/mp4">
           <source src="video/showreel.ogv" type="video/ogg">
           <source src="video/showreel.webm" type="video/webm">
         </video>
+        <!--video main page end-->
       </section>
       <!--main-content section end-->
 
@@ -101,19 +226,19 @@
           <h2 class="menu-item__title menu-item__title_place_center menu-item__title_color_red">Express services</h2>
           <div class="menu-item__icon menu-item__icon_place_center"></div>
           <ul class="menu-item__list menu-item__list_place_center">
-            <li class="menu-item__item">
+            <li class="menu-item__item nav_item-label">
               <p class="menu-item__text">Creation of creatives</p>
             </li>
-            <li class="menu-item__item">
+            <li class="menu-item__item nav_item-label">
               <p class="menu-item__text">Localization of products and advertisements</p>
             </li>
-            <li class="menu-item__item">
+            <li class="menu-item__item nav_item-label">
               <p class="menu-item__text">Social media targeting (FB, instagram, TikTok)</p>
             </li>
-            <li class="menu-item__item">
+            <li class="menu-item__item nav_item-label">
               <p class="menu-item__text">Promotion of keywords on Google Play</p>
             </li>
-            <li class="menu-item__item">
+            <li class="menu-item__item nav_item-label">
               <p class="menu-item__text">Promotion of keywords in Google</p>
             </li>
           </ul>
@@ -128,19 +253,19 @@
             <div class="menu-item__iconz"></div>
             <div class="menu-item__btn-line"></div>
             <ul class="menu-item__list">
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Creation of creatives</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Localization of products and advertisements</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Social media targeting (FB, instagram, TikTok)</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Promotion of keywords on Google Play</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Promotion of keywords in Google</p>
               </li>
             </ul>
@@ -154,16 +279,16 @@
             <div class="menu-item__icon"></div>
             <div class="menu-item__btn-line"></div>
             <ul class="menu-item__list">
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Community management</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Targeted advertising</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Influencer marketing</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Photoproduction</p>
               </li>
             </ul>
@@ -177,16 +302,16 @@
             <div class="menu-item__icon"></div>
             <div class="menu-item__btn-line"></div>
             <ul class="menu-item__list">
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Interface design</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Technical implementation</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Product launch</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Product promotion</p>
               </li>
             </ul>
@@ -200,16 +325,16 @@
             <div class="menu-item__icon"></div>
             <div class="menu-item__btn-line"></div>
             <ul class="menu-item__list">
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Research and analytics</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Interface design</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Front-end and back-end</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Technical and design support</p>
               </li>
             </ul>
@@ -223,16 +348,16 @@
             <div class="menu-item__icon"></div>
             <div class="menu-item__btn-line"></div>
             <ul class="menu-item__list">
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Websites and Landings</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Motion design</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Video and photo production</p>
               </li>
-              <li class="menu-item__item">
+              <li class="menu-item__item nav_item-label">
                 <p class="menu-item__text">Scripting and directing</p>
               </li>
             </ul>
@@ -251,6 +376,7 @@
 
   <script type="module" src="scripts/video.js"></script>
   <script type="module" src="scripts/menu.js"></script>
+  <script type="module" src="scripts/work.js"></script>
 </body>
 <!--body end-->
 </html>

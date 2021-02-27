@@ -1,0 +1,9 @@
+.main-content__back_active {
+    display: block;
+}
+
+@media screen and (max-width: 720px) {
+  .main-content__back_active {
+    display: none;
+  }
+}

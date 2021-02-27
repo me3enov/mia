@@ -20,3 +20,5 @@ function toggleMute() {
 //set event listeners video
 playBtn.addEventListener('click', togglePlay);
 muteBtn.addEventListener('click', toggleMute);
+
+export {vid};

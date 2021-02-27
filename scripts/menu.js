@@ -4,20 +4,29 @@ const menu = document.querySelector('.menu');
 const menuBtn = document.querySelector('.header__btn_align_right');
 const textBtn = menuBtn.querySelector('.header__btn-text');
 
+//menu items
+const menuItems = {
+  item: menu,
+  btn: menuBtn,
+  text: textBtn
+};
+
 //play video
 function toggleMenu() {
   const isOpened = document.querySelector('.menu_opened');
   isOpened ? closeMenu() : openMenu();
-  menu.classList.toggle('menu_opened');
+  menuItems.item.classList.toggle('menu_opened');
 }
 
 function openMenu() {
-  textBtn.textContent = 'close';
+  menuItems.text.textContent = 'close';
 }
 
 function closeMenu() {
-  textBtn.textContent = 'more';
+  menuItems.text.textContent = 'more';
 }
 
-//set event listeners video
-menuBtn.addEventListener('click', toggleMenu);
+//set event menu listener
+menuItems.btn.addEventListener('click', toggleMenu);
+
+export {menuItems};

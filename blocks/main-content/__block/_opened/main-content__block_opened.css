@@ -1,0 +1,4 @@
+.main-content__block_opened {
+  display: -ms-grid;
+  display: grid;
+}
