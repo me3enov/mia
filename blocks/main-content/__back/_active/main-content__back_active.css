@@ -1,5 +1,5 @@
 .main-content__back_active {
-    display: block;
+    display: none;
 }
 
 @media screen and (max-width: 720px) {
