@@ -1,0 +1,20 @@
+.menu {
+  height: 100%;
+  position: absolute;
+  top: -100vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 120px 1fr auto;
+  background-color: #000;
+  z-index: 10;
+  visibility: hidden;
+}
+
+@media screen and (max-height: 500px) {
+  .menu {
+    grid-template-rows: 80px auto;
+  }
+}

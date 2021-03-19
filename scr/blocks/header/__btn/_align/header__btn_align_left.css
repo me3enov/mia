@@ -1,0 +1,35 @@
+.header__btn_align_left {
+  align-items: flex-start;
+  text-align: left;
+  margin: 40px 0 0 40px;
+}
+
+.header__btn_align_left:hover .header__btn-line_align_left {
+  border-bottom: 1px solid #cfcfcf;
+  -webkit-animation: tr_left 1s linear 0s infinite;
+          animation: tr_left 1s linear 0s infinite;
+}
+
+@media screen and (max-height: 390px) {
+  .header__btn_align_left {
+    margin: 20px 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .header__btn_align_left {
+    margin: 20px 0 0 20px;
+  }
+}
+
+@-webkit-keyframes tr_left {
+  0%  { -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+  50% { -webkit-transform: translate(40px, 0); transform: translate(40px, 0);}
+  100%{ -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+}
+
+@keyframes tr_left {
+  0%  { -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+  50% { -webkit-transform: translate(40px, 0); transform: translate(40px, 0);}
+  100%{ -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+}

@@ -1,0 +1,36 @@
+.main-content__company {
+  display: flex;
+  grid-row: 1;
+  grid-column: 1;
+  row-gap: 10px;
+  align-self: flex-end;
+  justify-self: flex-end;
+  writing-mode: tb-rl;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #fff;
+  margin: 40px;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .main-content__company {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 390px) {
+  .main-content__company {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-height: 310px) {
+  .main-content__company {
+    display: none;
+  }
+}

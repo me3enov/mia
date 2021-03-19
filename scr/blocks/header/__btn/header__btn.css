@@ -1,0 +1,24 @@
+.header__btn {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  transition: .4s;
+  padding: 0;
+}
+
+.header__btn:hover,
+.header__btn:focus,
+.header__btn:active {
+  outline: none;
+}
+
+.header__btn:hover .header__btn-text {
+  font-weight: 600;
+  color: #cfcfcf;
+}

@@ -1,0 +1,10 @@
+.main-content__social-list {
+  margin: 30px;
+  padding: 0;
+  grid-row: 1;
+  grid-column: 1;
+  row-gap: 10px;
+  align-self: flex-end;
+  justify-self: flex-start;
+  list-style-type: none;
+}

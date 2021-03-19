@@ -1,0 +1,41 @@
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  grid-row: 3;
+  grid-column: 1;
+  align-self: flex-end;
+  list-style-type: none;
+  margin: 40px 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 580px) {
+  .menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .menu__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .menu__list {
+    margin: 0 0 20px;
+  }
+}
+
+@media screen and (max-height: 390px) {
+  .menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 0 20px;
+  }
+}

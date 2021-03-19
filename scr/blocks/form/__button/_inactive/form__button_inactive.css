@@ -1,0 +1,10 @@
+.form__button_inactive{
+  background-color: #b1b1b1;
+  cursor: default;
+}
+
+.form__button_inactive:hover,
+.form__button_inactive:focus,
+.form__button_inactive:active{
+  box-shadow:none;
+}

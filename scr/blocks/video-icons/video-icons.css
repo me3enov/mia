@@ -1,0 +1,23 @@
+.video-icons {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  grid-template-rows: 1fr;
+  column-gap: 10px;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .video-icons {
+    grid-template-columns: repeat(2, 50px);
+  }
+}
+
+@media screen and (max-height: 260px) {
+  .video-icons {
+    display: none;
+  }
+}

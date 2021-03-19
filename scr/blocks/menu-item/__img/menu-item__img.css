@@ -1,0 +1,40 @@
+.menu-item__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 270px;
+  height: 270px;
+  display: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .4s;
+  z-index: -1;
+}
+
+@media screen and (min-width: 580px) {
+  .menu-item__img {
+    top: 120px;
+    left: 0;
+    width: 248px;
+    height: 248px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-item__img {
+    top: 120px;
+    left: 0;
+    width: 374px;
+    height: 374px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-item__img {
+    top: 0;
+    left: 0;
+    width: 520px;
+    height: 520px;
+  }
+}

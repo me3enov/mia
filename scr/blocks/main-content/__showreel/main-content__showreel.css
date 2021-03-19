@@ -1,0 +1,10 @@
+.main-content__showreel {
+  display: none;
+  grid-row: 1;
+  grid-column: 1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: .7;
+  z-index: -1;
+}

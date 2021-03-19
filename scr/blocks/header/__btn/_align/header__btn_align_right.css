@@ -1,0 +1,35 @@
+.header__btn_align_right {
+  align-items: flex-end;
+  text-align: right;
+  margin: 40px 40px 0;
+}
+
+.header__btn_align_right:hover .header__btn-line_align_right {
+  border-bottom: 1px solid #cfcfcf;
+  -webkit-animation: tr_right 1s linear 0s infinite;
+          animation: tr_right 1s linear 0s infinite;
+}
+
+@media screen and (max-height: 390px) {
+  .header__btn_align_right {
+    margin: 20px 20px 0;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .header__btn_align_right {
+    margin: 20px 20px 0;
+  }
+}
+
+@-webkit-keyframes tr_right {
+  0%  { -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+  50% { -webkit-transform: translate(-40px, 0); transform: translate(-40px, 0);}
+  100%{ -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+}
+
+@keyframes tr_right {
+  0%  { -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+  50% { -webkit-transform: translate(-40px, 0); transform: translate(-40px, 0);}
+  100%{ -webkit-transform: translate(0, 0); transform: translate(0, 0);}
+}

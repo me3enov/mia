@@ -1,0 +1,27 @@
+.social-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, 40px);
+  row-gap: 10px;
+  align-self: flex-end;
+  justify-self: flex-start;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 425px) {
+  .social-list {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 390px) {
+  .social-list {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-height: 310px) {
+  .social-list {
+    display: none;
+  }
+}

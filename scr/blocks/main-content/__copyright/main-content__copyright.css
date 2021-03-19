@@ -1,0 +1,32 @@
+.main-content__copyright {
+  grid-row: 1;
+  grid-column: 1;
+  row-gap: 10px;
+  align-self: flex-end;
+  justify-self: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin: 40px;
+  padding: 0;
+}
+
+.main-content__copyright::before {
+  content: "\00A9";
+}
+
+@media screen and (max-height: 500px) {
+  .main-content__copyright {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .main-content__copyright {
+    margin: 20px;
+  }
+}

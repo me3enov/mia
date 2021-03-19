@@ -1,0 +1,6 @@
+.form__input_string_service {
+  background-image: url(../../../../images/icons/select.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 53%, 0 0;
+  background-size: .65em auto, 100%;
+}
