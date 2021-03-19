@@ -109,6 +109,7 @@ function handleCloseWork () {
   layerIndex.open();
   layerOverlay.open();
   layerShowReel.open();
+  formWork.clearValidation();
 }
 //CREATE WORK PAGE END
 
