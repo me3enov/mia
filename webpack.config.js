@@ -43,6 +43,6 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
-	new FaviconsWebpackPlugin('./scr/images/icon.svg'),
+	new FaviconsWebpackPlugin('./scr/images/header__logo.svg'),
   ]
 }

@@ -1,5 +1,5 @@
 //import CSS
-//import './index.css';
+import './index.css';
 //IMPORT MODULES START
 import {menuItemsData} from '../utils/menuItemsData.js';
 import {socialIconsData} from '../utils/socialIconsData.js';
